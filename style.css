@@ -4,6 +4,10 @@ body {
   font-family: Nunito, sans-serif;
   background-color: #ced1de;
 }
+h1 {
+  margin: 0;
+  padding: 0;
+}
 
 header {
   background-color: #aea7c5;
@@ -48,13 +52,23 @@ span {
 }
 
 h1 {
-  text-align: center;
   font-size: 46px;
   font-weight: 700;
+  padding: 20px 40px;
+  color: #fff;
 }
 
 p {
-  text-align: center;
-  font-size: 2em;
-  color: #0d0137;
+  font-size: 2.5em;
+  color: #e7e7e7;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+.container_section {
+  background-image: linear-gradient(rgba(1, 29, 55, 0.6), rgba(3, 66, 79, 0.6)), url(https://d335luupugsy2.cloudfront.net/cms/files/793314/1752861196/$scpi8rf8qyn);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
